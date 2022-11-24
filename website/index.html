@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpyNetwork Console</title>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>SpyNetwork Console</h1>
+
+        <form id="send-form">
+            <div class="field">
+                <label class="label" for="receiver">Receiver</label>
+                <select id="receiver" class="select">
+                    <option value="" disabled selected hidden>Loading...</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label class="label" for="sender">Sender</label>
+                <input id="sender" class="input" type="text" value="Anonymous">
+            </div>
+
+            <div class="field">
+                <label class="label" for="input">Message</label>
+                <textarea id="input" class="textarea is-large"
+                    placeholder="Type here your message to encrypt and send..."></textarea>
+            </div>
+
+            <div class="field">
+                <textarea id="output" class="textarea is-larger"
+                    placeholder="Type here a message to decrypt..."></textarea>
+            </div>
+
+            <div class="field">
+                <button class="button" type="submit">Send message</button>
+            </div>
+        </form>
+
+        <p><i>Copyright &copy; 2022 Die Kantanky's</i></p>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
