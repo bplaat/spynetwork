@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_register_title">Je moet registeren</string>
+    <string name="main_register_description">Om spionageberichten te ontvangen moet u zich registreren met uw naam</string>
+    <string name="main_register_name">Jouw naam...</string>
+    <string name="main_register_button">Registeer</string>
+</resources>

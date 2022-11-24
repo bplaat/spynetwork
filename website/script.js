@@ -82,8 +82,7 @@ sendForm.addEventListener('submit', async event => {
         headers: {
             apikey: API_KEY,
             Authorization: `Bearer ${API_KEY}`,
-            'Content-Type': 'application/json',
-            Prefer: 'return=representation'
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify({
             device_id: receiver.value,

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SpyNetwork</string>
+
+    <string name="main_register_title">You need to register</string>
+    <string name="main_register_description">To receive spy messages you need to register with your name</string>
+    <string name="main_register_name">Your name...</string>
+    <string name="main_register_button">Register</string>
+</resources>
